@@ -18,7 +18,7 @@ Build an automated system that detects and segments key features from orthophoto
 ## Submission Highlights
 - Transformer-based segmentation model: SegFormer (MiT-B3)
 - 7-class semantic segmentation pipeline
-- 8,449 training tiles generated from 6 villages
+- Using the available orthophoto data, we generated training tiles and developed the model pipeline.
 - Boundary-aware loss design for class imbalance
 - Sliding-window inference with TTA for full orthophoto prediction
 - Geospatial deliverables: COG raster + GPKG vector outputs
@@ -44,5 +44,4 @@ Build an automated system that detects and segments key features from orthophoto
 5. Post-processing and vectorization
 6. Submission packaging
 
-## Note on QC Preview Image
-Place your final QC preview image at assets/qc_output.png so it renders as the top banner in this README.
+
