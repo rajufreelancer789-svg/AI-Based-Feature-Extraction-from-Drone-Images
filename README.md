@@ -36,6 +36,33 @@ Build an automated system that detects and segments key features from orthophoto
 - Rasterio, GeoPandas, Shapely
 - Google Colab (Tesla T4)
 
+## Evaluation Metrics
+We evaluate model quality using competition-aligned segmentation metrics:
+- Mean IoU (mIoU)
+- Mean F1 (mF1)
+- Overall Pixel Accuracy (OA)
+- Boundary IoU
+
+### Target Performance Benchmarks
+| Metric | Target |
+|--------|--------|
+| mIoU | > 0.65 |
+| mF1 | > 0.70 |
+| Building IoU | > 0.75 |
+| Road IoU | > 0.60 |
+| Boundary IoU | > 0.40 |
+| OA | > 0.90 |
+
+### Final Submission Metrics (to be updated after final training/inference run)
+| Metric | Value |
+|--------|-------|
+| mIoU | TBD |
+| mF1 | TBD |
+| Building IoU | TBD |
+| Road IoU | TBD |
+| Boundary IoU | TBD |
+| OA | TBD |
+
 ## Pipeline
 1. Data setup and manifest creation
 2. Orthophoto tiling and mask rasterization
