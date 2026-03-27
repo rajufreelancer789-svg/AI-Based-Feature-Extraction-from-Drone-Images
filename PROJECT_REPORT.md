@@ -23,6 +23,10 @@
 
 ---
 
+Our QC Visualisation Output : 
+<img width="1600" height="401" alt="image" src="https://github.com/user-attachments/assets/7343cd02-845c-45a0-8ed0-9c0ed7e21592" />
+
+
 ## 2. Dataset Description
 
 ### 2.1 Data Source
