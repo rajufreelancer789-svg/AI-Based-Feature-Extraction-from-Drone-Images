@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+.ipynb_checkpoints/
+
+# Runtime outputs / data
+tiles/
+checkpoints/
+logs/
+outputs/
+imagery/
+data/
+
+# Archives and large packages
+*.zip
+
+# Optional caches
+.cache/
